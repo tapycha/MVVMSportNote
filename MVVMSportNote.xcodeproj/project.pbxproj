@@ -9,23 +9,59 @@
 /* Begin PBXBuildFile section */
 		235597DD2477D593008E1E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597DC2477D593008E1E8A /* AppDelegate.swift */; };
 		235597DF2477D593008E1E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597DE2477D593008E1E8A /* SceneDelegate.swift */; };
-		235597E12477D593008E1E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597E02477D593008E1E8A /* ViewController.swift */; };
 		235597E42477D593008E1E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235597E22477D593008E1E8A /* Main.storyboard */; };
 		235597E72477D593008E1E8A /* MVVMSportNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 235597E52477D593008E1E8A /* MVVMSportNote.xcdatamodeld */; };
 		235597E92477D594008E1E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235597E82477D594008E1E8A /* Assets.xcassets */; };
 		235597EC2477D594008E1E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235597EA2477D594008E1E8A /* LaunchScreen.storyboard */; };
+		235597FA2477D764008E1E8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597F42477D764008E1E8A /* HomeViewController.swift */; };
+		235597FB2477D764008E1E8A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597F62477D764008E1E8A /* HomeTableViewCell.swift */; };
+		235597FC2477D764008E1E8A /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235597F72477D764008E1E8A /* HomeTableViewCell.xib */; };
+		235597FE2477D764008E1E8A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235597F92477D764008E1E8A /* HomeModel.swift */; };
+		235598042477D777008E1E8A /* NewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598012477D777008E1E8A /* NewExerciseViewController.swift */; };
+		235598052477D777008E1E8A /* NewExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598022477D777008E1E8A /* NewExerciseModel.swift */; };
+		2355980A2477D781008E1E8A /* NewUnitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598072477D780008E1E8A /* NewUnitModel.swift */; };
+		2355980B2477D781008E1E8A /* NewUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598082477D780008E1E8A /* NewUnitViewController.swift */; };
+		2355980C2477D781008E1E8A /* NewUnitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598092477D780008E1E8A /* NewUnitPresenter.swift */; };
+		235598172477D78A008E1E8A /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355980F2477D789008E1E8A /* WorkoutViewController.swift */; };
+		235598182477D78A008E1E8A /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598102477D789008E1E8A /* WorkoutModel.swift */; };
+		235598192477D78A008E1E8A /* WorkoutHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235598122477D789008E1E8A /* WorkoutHeaderTableViewCell.xib */; };
+		2355981A2477D78A008E1E8A /* WorkoutHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598132477D789008E1E8A /* WorkoutHeaderTableViewCell.swift */; };
+		2355981B2477D78A008E1E8A /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235598142477D789008E1E8A /* WorkoutTableViewCell.swift */; };
+		2355981C2477D78A008E1E8A /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235598152477D789008E1E8A /* WorkoutTableViewCell.xib */; };
+		2355981E2477DC9F008E1E8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355981D2477DC9F008E1E8A /* HomeViewModel.swift */; };
+		2355982024780345008E1E8A /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355981F24780345008E1E8A /* WorkoutViewModel.swift */; };
+		2355982224780B8C008E1E8A /* NewExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355982124780B8C008E1E8A /* NewExerciseViewModel.swift */; };
+		2355982424781912008E1E8A /* NewUnitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355982324781912008E1E8A /* NewUnitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		235597D92477D593008E1E8A /* MVVMSportNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSportNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235597DC2477D593008E1E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235597DE2477D593008E1E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		235597E02477D593008E1E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		235597E32477D593008E1E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		235597E62477D593008E1E8A /* MVVMSportNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMSportNote.xcdatamodel; sourceTree = "<group>"; };
 		235597E82477D594008E1E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235597EB2477D594008E1E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		235597ED2477D594008E1E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235597F42477D764008E1E8A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		235597F62477D764008E1E8A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		235597F72477D764008E1E8A /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		235597F92477D764008E1E8A /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		235598012477D777008E1E8A /* NewExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExerciseViewController.swift; sourceTree = "<group>"; };
+		235598022477D777008E1E8A /* NewExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExerciseModel.swift; sourceTree = "<group>"; };
+		235598072477D780008E1E8A /* NewUnitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUnitModel.swift; sourceTree = "<group>"; };
+		235598082477D780008E1E8A /* NewUnitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUnitViewController.swift; sourceTree = "<group>"; };
+		235598092477D780008E1E8A /* NewUnitPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUnitPresenter.swift; sourceTree = "<group>"; };
+		2355980F2477D789008E1E8A /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		235598102477D789008E1E8A /* WorkoutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		235598122477D789008E1E8A /* WorkoutHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		235598132477D789008E1E8A /* WorkoutHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		235598142477D789008E1E8A /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		235598152477D789008E1E8A /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutTableViewCell.xib; sourceTree = "<group>"; };
+		2355981D2477DC9F008E1E8A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2355981F24780345008E1E8A /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		2355982124780B8C008E1E8A /* NewExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseViewModel.swift; sourceTree = "<group>"; };
+		2355982324781912008E1E8A /* NewUnitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUnitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +94,12 @@
 		235597DB2477D593008E1E8A /* MVVMSportNote */ = {
 			isa = PBXGroup;
 			children = (
+				2355980D2477D789008E1E8A /* Workout */,
+				235598062477D780008E1E8A /* NewUnit */,
+				235597FF2477D777008E1E8A /* NewExercise */,
+				235597F32477D764008E1E8A /* Home */,
 				235597DC2477D593008E1E8A /* AppDelegate.swift */,
 				235597DE2477D593008E1E8A /* SceneDelegate.swift */,
-				235597E02477D593008E1E8A /* ViewController.swift */,
 				235597E22477D593008E1E8A /* Main.storyboard */,
 				235597E82477D594008E1E8A /* Assets.xcassets */,
 				235597EA2477D594008E1E8A /* LaunchScreen.storyboard */,
@@ -68,6 +107,69 @@
 				235597E52477D593008E1E8A /* MVVMSportNote.xcdatamodeld */,
 			);
 			path = MVVMSportNote;
+			sourceTree = "<group>";
+		};
+		235597F32477D764008E1E8A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				235597F42477D764008E1E8A /* HomeViewController.swift */,
+				235597F52477D764008E1E8A /* Cell */,
+				235597F92477D764008E1E8A /* HomeModel.swift */,
+				2355981D2477DC9F008E1E8A /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		235597F52477D764008E1E8A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				235597F62477D764008E1E8A /* HomeTableViewCell.swift */,
+				235597F72477D764008E1E8A /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		235597FF2477D777008E1E8A /* NewExercise */ = {
+			isa = PBXGroup;
+			children = (
+				235598012477D777008E1E8A /* NewExerciseViewController.swift */,
+				235598022477D777008E1E8A /* NewExerciseModel.swift */,
+				2355982124780B8C008E1E8A /* NewExerciseViewModel.swift */,
+			);
+			path = NewExercise;
+			sourceTree = "<group>";
+		};
+		235598062477D780008E1E8A /* NewUnit */ = {
+			isa = PBXGroup;
+			children = (
+				235598072477D780008E1E8A /* NewUnitModel.swift */,
+				235598082477D780008E1E8A /* NewUnitViewController.swift */,
+				235598092477D780008E1E8A /* NewUnitPresenter.swift */,
+				2355982324781912008E1E8A /* NewUnitViewModel.swift */,
+			);
+			path = NewUnit;
+			sourceTree = "<group>";
+		};
+		2355980D2477D789008E1E8A /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				2355980F2477D789008E1E8A /* WorkoutViewController.swift */,
+				235598102477D789008E1E8A /* WorkoutModel.swift */,
+				235598112477D789008E1E8A /* Cell */,
+				2355981F24780345008E1E8A /* WorkoutViewModel.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		235598112477D789008E1E8A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				235598122477D789008E1E8A /* WorkoutHeaderTableViewCell.xib */,
+				235598132477D789008E1E8A /* WorkoutHeaderTableViewCell.swift */,
+				235598142477D789008E1E8A /* WorkoutTableViewCell.swift */,
+				235598152477D789008E1E8A /* WorkoutTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +232,10 @@
 			files = (
 				235597EC2477D594008E1E8A /* LaunchScreen.storyboard in Resources */,
 				235597E92477D594008E1E8A /* Assets.xcassets in Resources */,
+				235597FC2477D764008E1E8A /* HomeTableViewCell.xib in Resources */,
+				235598192477D78A008E1E8A /* WorkoutHeaderTableViewCell.xib in Resources */,
 				235597E42477D593008E1E8A /* Main.storyboard in Resources */,
+				2355981C2477D78A008E1E8A /* WorkoutTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +246,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235597E12477D593008E1E8A /* ViewController.swift in Sources */,
+				2355981E2477DC9F008E1E8A /* HomeViewModel.swift in Sources */,
+				2355980C2477D781008E1E8A /* NewUnitPresenter.swift in Sources */,
+				2355981A2477D78A008E1E8A /* WorkoutHeaderTableViewCell.swift in Sources */,
+				235597FB2477D764008E1E8A /* HomeTableViewCell.swift in Sources */,
+				235598042477D777008E1E8A /* NewExerciseViewController.swift in Sources */,
+				235597FA2477D764008E1E8A /* HomeViewController.swift in Sources */,
+				235597FE2477D764008E1E8A /* HomeModel.swift in Sources */,
+				2355982424781912008E1E8A /* NewUnitViewModel.swift in Sources */,
+				2355981B2477D78A008E1E8A /* WorkoutTableViewCell.swift in Sources */,
 				235597DD2477D593008E1E8A /* AppDelegate.swift in Sources */,
+				2355980A2477D781008E1E8A /* NewUnitModel.swift in Sources */,
+				235598182477D78A008E1E8A /* WorkoutModel.swift in Sources */,
+				2355982224780B8C008E1E8A /* NewExerciseViewModel.swift in Sources */,
+				2355980B2477D781008E1E8A /* NewUnitViewController.swift in Sources */,
+				235598052477D777008E1E8A /* NewExerciseModel.swift in Sources */,
 				235597E72477D593008E1E8A /* MVVMSportNote.xcdatamodeld in Sources */,
+				235598172477D78A008E1E8A /* WorkoutViewController.swift in Sources */,
+				2355982024780345008E1E8A /* WorkoutViewModel.swift in Sources */,
 				235597DF2477D593008E1E8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tapycha.MVVMSportNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tapycha.MVVMSportNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
